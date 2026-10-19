@@ -1,0 +1,4 @@
+
+test_dosyalari/
+*.log
+__pycache__/
