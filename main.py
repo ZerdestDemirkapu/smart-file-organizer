@@ -22,7 +22,10 @@ dosya_turleri = {
     ".txt": "Belgeler",
     ".docx": "Belgeler",
     ".xlsx": "Tablolar",
-    ".csv": "Tablolar"
+    ".csv": "Tablolar",
+    ".mp3": "Muzikler",
+    ".mp4": "Videolar",
+    ".zip": "Arsivler"
 }
 
 def kategori_bul(dosya):
