@@ -3,6 +3,9 @@ from pathlib import Path
 import shutil
 import logging
 
+from dosya_arama import dosya_ara
+
+
 klasor = Path(__file__).resolve().parent / "test_dosyalari"
 
 
@@ -61,5 +64,13 @@ for dosya in klasor.iterdir():
         dosya_tasi(dosya, kategori)
 
 print("Dosya düzenleme tamamlandı!")
+
+
+print("\n--- DOSYA ARAMA ---")
+
+aranan = input("Aramak istediğiniz dosyanın adını girin: ")
+
+dosya_ara(Path(__file__).resolve().parent / "test_dosyalari", aranan)
+
 
 
